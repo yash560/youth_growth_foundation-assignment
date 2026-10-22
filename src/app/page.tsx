@@ -237,9 +237,14 @@ export default function Home() {
       {/* Footer */}
       <footer className="mt-16 border-t border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-950/50 py-8 text-xs text-slate-500 dark:text-slate-400">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div>
-            <span className="font-bold text-slate-900 dark:text-white">NetPulse Guardian OS</span> — Enterprise AI Agent Network Security & MCP Gateway
-            <p className="mt-0.5">Built by Yash Jain for Youth Growth Foundation (AI Agent Development Internship).</p>
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="font-bold text-slate-900 dark:text-white">NetPulse Guardian OS</span>
+            <span>•</span>
+            <span>Enterprise AI Agent Network Security & MCP Gateway</span>
+            <span>•</span>
+            <span className="inline-flex items-center gap-1 font-bold text-blue-600 dark:text-blue-400 bg-blue-500/10 px-2 py-0.5 rounded-md border border-blue-500/20 text-[11px]">
+              Powered by TheWebVale
+            </span>
           </div>
           <div className="flex items-center space-x-4">
             <a
@@ -252,7 +257,7 @@ export default function Home() {
               <ArrowUpRight className="w-3.5 h-3.5" />
             </a>
             <span>•</span>
-            <span className="text-emerald-600 dark:text-emerald-400 font-semibold">Next.js 15 • React 19 • Tailwind v4</span>
+            <span className="text-emerald-600 dark:text-emerald-400 font-semibold">Youth Growth Foundation Assessment</span>
           </div>
         </div>
       </footer>
